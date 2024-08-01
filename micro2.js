@@ -5,10 +5,18 @@ let movies =  ['Turno de día', '30 noches con mi ex', 'Bestia', 'El monte', 'To
 // una función, la cual recibirá por parámetro la película indicada y deberá retornar la
 // misma pero en mayúscula. Para ello sería bueno que investigues sobre el método
 // .toUpperCase(). Con ese valor recibido, deberás colocarla primera en la estructura creada.
+let pelicula = 'Thor: amor y trueno';
+function mayus(peli) {
+    let peliculaMayus = pelicula.toUpperCase;
+    return peliculaMayus
+}; // revisar bien esta parte y por qué no funciona 
+let moverThor = movies.pop();
+let lamejorPeli = movies.unshift("peliculaMayus");
 
-function mayus(ThorAmoryTrueno) {
-    return 
-}
+console.log(mayus(pelicula));
 
 let newMovies = ['Counter-Strike', 'NOP', 'Vértigo', 'Nick', 'Avatar'];
-let errorMovies = newMovies.shift()
+let errorMovies = newMovies.shift();
+
+console.log(errorMovies);
+console.log(newMovies);
